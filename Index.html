@@ -1,1 +1,40 @@
 
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ASN Allrounder</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    background: #EFEEE8; /* gleiche Hintergrundfarbe wie die App, damit es beim Laden nicht "blitzt" */
+  }
+  iframe {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    height: 100dvh; /* korrekte volle Höhe auf Handys, auch mit Adressleiste */
+    border: none;
+  }
+</style>
+</head>
+<body>
+
+  <!--
+    WICHTIG: Hier unten bei "src" deine eigene Apps-Script-Web-App-URL eintragen.
+    Die findest du in Apps Script unter: Bereitstellen -> Bereitstellungen verwalten
+    Es ist die URL, die auf /exec endet.
+  -->
+  <iframe
+    src="https://bujaminzuberi.github.io/ASN-Allrounder/"
+    title="ASN Allrounder"
+    allow="clipboard-write"
+  ></iframe>
+
+</body>
+</html>
